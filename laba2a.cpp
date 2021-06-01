@@ -1,8 +1,8 @@
 #include <iostream>
 #include <time.h>
 #include <vector>
-//вариант 3
-// подвариант 
+//вариант 2
+// подвариант  1
 
 using namespace std;
 
