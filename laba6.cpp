@@ -7,6 +7,9 @@
 #include <queue>
 #include <ctime>
 #include <fstream>
+#include <vector>
+#include <algorithm>
+
 using namespace std;
 
 ostream& operator << (ostream& stream, tm& time) {
@@ -126,14 +129,7 @@ bool operator == (tm& left, tm& right) {
 }
 
 #endif
-#include <iostream>
-#include <vector>
-#include <algorithm>
-#include <queue>
-#include <ctime>
-#include <fstream>
 
-using namespace std;
 
 struct linked_list {
     tm data;
